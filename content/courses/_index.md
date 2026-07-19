@@ -1,28 +1,15 @@
 ---
-title: Courses
-summary: My courses
+title: Teaching & Mentorship
+summary: Teaching materials, courses, and research topics for students
 type: landing
 
-cascade:
-  - target:
-      path: '{/courses/*/**}'
-    type: docs
-    params:
-      show_breadcrumb: true
+design:
+  spacing: "5rem"
 
 sections:
-  - block: collection
-    id: courses
+  - block: markdown
     content:
-      title: Courses
-      filters:
-        tag: Course
-        kinds:
-          - section
-    design:
-      view: article-grid
-      show_read_time: false
-      show_date: false
-      show_read_more: false
-      columns: 1
+      title: Teaching & Mentorship
+      text: |
+        Courses, lecture materials, and student research topics will be published here.
 ---
